@@ -21,8 +21,8 @@ export const {
             },
         }),
         GitHubProvider({
-            clientId: process.env.GITHUB_CLIENT_ID,
-            clientSecret: process.env.GITHUB_CLIENT_SECRET,
+            clientId: process.env.__GITHUB_CLIENT_ID,
+            clientSecret: process.env.__GITHUB_CLIENT_SECRET,
             authorization: {
                 params: {
                     prompt: "consent",
